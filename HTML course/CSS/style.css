@@ -1,0 +1,20 @@
+ /* p{ 
+    color: red;
+    font-size: 50px;
+     note there is no space between 50 and px 
+    font-weight: bold;
+
+}  */
+
+/*note in external css file we don't need style again */
+
+p,h1{color: greenyellow;}
+h2{color: red;}
+div p{color: pink;}
+
+#first-para {
+    color:blue;
+}
+.second-para{color:green
+
+}

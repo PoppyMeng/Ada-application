@@ -1,0 +1,139 @@
+body{
+background: #F4F4F4;
+margin: 0;
+}
+.link-title {
+
+    text-decoration: none;
+    font-size: 24px;
+}
+.page-heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 9px 13px 5px;
+}
+
+.header{
+        padding: 45px 0 20px 40px;
+        
+}
+.menu{
+background: pink;
+padding: 6px 0 6px 40px;
+}
+
+.menu a {
+color: brown;
+text-decoration: none;
+font-size: 14px;
+font-family: "Arial Narrow", "Myriad Pro";
+
+}
+.menu a:hover{
+    color: #ecf2f3;   
+}
+
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+
+/* this is the styling of side bar */
+h1{
+    margin: 0px;
+    color: #869843;
+    font-size: 24px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-weight: normal;
+}
+
+h2 {
+color: #3b7687;
+font-size: 15px;
+margin: 20px 0 5px 0;
+}
+
+.main{
+margin: 0 0 0 180px;
+padding: 35px 40px 30px 0;   /*padding means the space around the element*/
+color: #444444;
+font-family: "Georgia";
+font-size: 13px;
+line-height: 18px;
+text-emphasis: justify;
+}
+/* main here means the style of the paragraph */
+.main a:hover {
+ color: #444444;   
+
+}
+/* hover means when yo point at some link, not necessarily click it */
+
+#home-image img{
+width: 100%;
+}
+
+footer {
+padding: 6px 40px 6px 40px; /*top right bottom left*/
+background: #d6d6d6;
+font-family: "lucida Sans Unicode";
+color: #444444;
+font-size: 11px;
+text-decoration: right;
+}
+
+.separator{
+color: #444444;
+font-size: 11px;
+}
+
+/********************* about page style */
+#about-page #home-image img {
+    width: 70%;
+    float:left;
+    margin-bottom: 20px;
+}
+#about-page #profile-info {
+float:right;
+width: 20%;
+margin: 5px;
+
+}
+#about-page .desciption{
+    clear:both;
+}
+
+/********************* contact style */
+#contact #form {
+    width: 500px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+}
+ #contact #form input{
+  width: 100%;
+  border-radius: 5px;
+  height: 20px;
+  background: #D6D6D6;
+ }
+
+#contact #form #message {
+width: 100%;
+border-radius: 5px;
+background:#D6D6D6;
+}
+
+#contact #form #submit {
+    height: 30px;
+    background: #dbe2f9;
+    text-align: center;
+}
