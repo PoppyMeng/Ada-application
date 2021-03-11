@@ -1,0 +1,9 @@
+def count_leaves(t):
+    if is_leaf(t):
+        return 1
+    else:
+        branch_counts=[count_leaves(b) for b in branches(t)]
+
+        return sum (branch_counts)
+    
+    
